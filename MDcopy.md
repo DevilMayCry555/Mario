@@ -30,16 +30,16 @@ The documentation is divided into several sections:
 You can improve it sending pull requests to [this repository](https://github.com/reactjs/reactjs.org).
 ## Examples
 We have several examples [on the website](https://reactjs.org/). Here is the first one to get you started:
+```
+<function HelloMessage({  name  }){
 
-    <function HelloMessage({  name  }){
-
-    return <div>Hello {name}</div>;
-    }
-
-    ReactDOM.render(
-    <HelloMessage name="Taylor" />,
-    document.getElementById('container')
-    );>
+return <div>Hello {name}</div>;
+}
+ReactDOM.render(
+<HelloMessage name="Taylor" />,
+document.getElementById('container')
+);>
+```
 This example will render "Hello Taylor" into a container on the page.
 
 
